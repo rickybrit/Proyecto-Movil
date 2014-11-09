@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WARSHIPS</string>
+    <string name="Jugar">Jugar</string>
+    <string name="Creditos">Créditos</string>
+    <string name="Salir">Salir</string>
+</resources>

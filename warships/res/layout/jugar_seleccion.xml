@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent" android:id="@+id/frameLayout">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:background="@android:color/background_dark" android:id="@+id/linearLayout"
+                  android:gravity="center" android:transitionGroup="false" android:baselineAligned="false"
+                  android:weightSum="1" android:visibility="visible" android:measureWithLargestChild="false"
+                  android:layout_gravity="center">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="JUEGO NUEVO" android:id="@+id/tituloJuegoNuevo" android:textSize="57sp"
+                  android:textAlignment="center" android:background="@android:color/transparent"
+                  android:textColor="#ff4456ff" android:textStyle="bold|italic" android:autoText="false"
+                />
+        <Space android:layout_width="match_parent" android:layout_height="100dp"
+               android:id="@+id/space3" android:layout_gravity="center_horizontal"/>
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Un Jugador"
+                android:id="@+id/botonUnJugador" android:textSize="30sp" android:singleLine="false" android:textStyle="bold"
+                android:enabled="true" android:clickable="true" android:background="#ff4456ff"
+                android:textColor="@android:color/primary_text_dark"/>
+        <Space android:layout_width="match_parent" android:layout_height="10dp"
+               android:id="@+id/space" android:layout_gravity="center_horizontal"/>
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Dos Jugadores"
+                android:id="@+id/botonDosJugadores" android:layout_gravity="center_horizontal" android:textSize="30sp"
+                android:singleLine="false" android:textStyle="bold" android:enabled="true" android:clickable="true"
+                android:background="#ff4456ff" android:textColor="@android:color/primary_text_dark"/>
+        <Space android:layout_width="match_parent" android:layout_height="10dp"
+               android:id="@+id/space2" android:layout_gravity="center_horizontal"/>
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Bluetooth"
+                android:id="@+id/botonBuetooth" android:textSize="30sp"
+                android:singleLine="false" android:textStyle="bold" android:enabled="true" android:clickable="true"
+                android:background="#ff4456ff" android:textColor="@android:color/primary_text_dark"/>
+        <Space android:layout_width="match_parent" android:layout_height="80dp" android:id="@+id/space4"
+               android:layout_gravity="center_horizontal"/>
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Regresar"
+                android:id="@+id/botonRegresar" android:textSize="30sp" android:singleLine="false"
+                android:textStyle="bold" android:enabled="true" android:clickable="true" android:background="#ff4456ff"
+                android:textColor="@android:color/primary_text_dark" android:layout_gravity="bottom"
+                />
+    </LinearLayout>
+</FrameLayout>

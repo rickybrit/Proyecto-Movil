@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@android:color/background_dark" android:id="@+id/linearLayout"
+                  android:gravity="center" android:transitionGroup="false" android:baselineAligned="false"
+                  android:weightSum="1" android:visibility="visible" android:measureWithLargestChild="false"
+                  android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CRÉDITOS"
+                  android:id="@+id/tituloCreditos" android:textSize="57sp" android:textAlignment="center"
+                  android:background="@android:color/transparent" android:textColor="#ff4456ff"
+                  android:textStyle="bold|italic" android:autoText="false" android:layout_marginTop="20dp"/>
+    </LinearLayout>
+    <Space android:layout_width="match_parent" android:layout_height="41dp" android:id="@+id/space"
+           android:layout_gravity="center_horizontal"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:id="@+id/listView" android:layout_gravity="center_horizontal" android:choiceMode="none"/>
+    <Space android:layout_width="match_parent" android:layout_height="45dp" android:id="@+id/space2"
+           android:layout_gravity="center_horizontal"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Regresar"
+            android:id="@+id/botonRegresar2" android:textSize="30sp" android:singleLine="false" android:textStyle="bold"
+            android:enabled="true" android:clickable="true" android:background="#ff4456ff"
+            android:textColor="@android:color/primary_text_dark" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
